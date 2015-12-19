@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+  line-height: 100%;
+}
+
+h2 {
+  font-size: $font-size-display;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: $font-size-headline;
+  font-weight: 200;
+}
+
+.heading-block {
+  &::after {
+    background-image: linear-gradient(to right, $color-primary 0, $color-primary 100%);
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 1px;
+    margin-top: 20px;
+  }
+
+  &.line-xs::after { width: 40px; }
+  &.line-sm::after { width: 100px; }
+  &.line-md::after { width: 300px; }
+  &.line-lg::after { width: 400px; }
+
+
+
+  &.gradient-line-light {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, $color-primary 50%, rgba(255, 255, 255, 1) 100%);
+  }
+
+  &.no-line {
+    &::after {
+      display: none;
+    }
+  }
+}

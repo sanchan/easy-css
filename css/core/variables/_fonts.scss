@@ -1,0 +1,50 @@
+/// Regular font family
+/// @type List
+$font-stack: 'Montserrat', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$font-stack-code: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/***** Font sizes *****/
+$font-size-button:      14px;
+$font-size-menu:        14px;
+$font-size-caption:     12px;
+$font-size-body:        13px;
+$font-size-subheading:  15px;
+$font-size-title:       20px;
+$font-size-headline:    24px;
+$font-size-display-xs:  34px;
+$font-size-display-sm:  45px;
+$font-size-display:     56px;
+$font-size-display-md:  64px;
+$font-size-display-lg:  72px;
+$font-size-display-xl:  84px;
+$font-size-display-xxl: 96px;
+
+/***** Font line height *****/
+// line-height is calculated using golden ratio: http://www.pearsonified.com/typography/
+$font-height-button:      23px;
+$font-height-menu:        23px;
+$font-height-caption:     19px;
+$font-height-body:        21px;
+$font-height-subheading:  24px;
+$font-height-title:       32px;
+$font-height-headline:    39px;
+$font-height-display-xs:  55px;
+$font-height-display-sm:  73px;
+$font-height-display:     91px;
+$font-height-display-md:  104px;
+$font-height-display-lg:  116px;
+$font-height-display-xl:  136px;
+$font-height-display-xxl: 155px;
+
+/***** Colors *****/
+/// Copy text color
+/// @type Color
+$font-color: #222 !default;
+
+/// Negative copy text color
+/// Useful for dark backgrounds
+/// @type Color
+$font-color-negative: #fff !default;

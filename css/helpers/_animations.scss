@@ -1,0 +1,117 @@
+.anim-delay-100 {
+  animation-delay: 100ms !important;
+    -webkit-animation-delay: 100ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 100ms !important;
+}
+
+.anim-delay-200 {
+  animation-delay: 200ms !important;
+    -webkit-animation-delay: 200ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 200ms !important;
+}
+
+.anim-delay-300 {
+  animation-delay: 300ms !important;
+    -webkit-animation-delay: 300ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 300ms !important;
+}
+
+.anim-delay-400 {
+  animation-delay: 400ms !important;
+    -webkit-animation-delay: 400ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 400ms !important;
+}
+
+.anim-delay-500 {
+  animation-delay: 500ms !important;
+    -webkit-animation-delay: 500ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 500ms !important;
+}
+
+.anim-delay-600 {
+  animation-delay: 600ms !important;
+    -webkit-animation-delay: 600ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 600ms !important;
+}
+
+.anim-delay-700 {
+  animation-delay: 700ms !important;
+    -webkit-animation-delay: 700ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 700ms !important;
+}
+
+.anim-delay-800 {
+  animation-delay: 800ms !important;
+    -webkit-animation-delay: 800ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 800ms !important;
+}
+
+.anim-delay-900 {
+  animation-delay: 900ms !important;
+    -webkit-animation-delay: 900ms !important; /* Chrome, Safari, Opera */
+  transition-delay: 900ms !important;
+}
+
+.anim-delay-1s {
+  animation-delay: 1s !important;
+    -webkit-animation-delay: 1s !important; /* Chrome, Safari, Opera */
+  transition-delay: 1s !important;
+}
+
+.anim-delay-2s {
+  animation-delay: 2s !important;
+    -webkit-animation-delay: 2s !important; /* Chrome, Safari, Opera */
+  transition-delay: 2s !important;
+}
+
+// Animation speed
+.anim-transition-very-slow {
+  transition: all $animation-duration-very-slow ease-out;
+}
+
+.anim-transition-slow {
+  transition: all $animation-duration-slow ease-out;
+}
+
+.anim-transition {
+  transition: all $animation-duration-normal ease-out;
+}
+
+.anim-transition-fast {
+  transition: all $animation-duration-fast ease-out;
+}
+
+.anim-transition-very-fast {
+  transition: all $animation-duration-very-fast ease-out;
+}
+
+// Animation speed for ::before
+.before-anim-transition-very-slow {
+  &::before {
+    transition: all $animation-duration-very-slow ease-out;
+  }
+}
+
+.before-anim-transition-slow {
+  &::before {
+    transition: all $animation-duration-slow ease-out;
+  }
+}
+
+.before-anim-transition {
+  &::before {
+    transition: all $animation-duration-normal ease-out;
+  }
+}
+
+.before-anim-transition-fast {
+  &::before {
+    transition: all $animation-duration-fast ease-out;
+  }
+}
+
+.before-anim-transition-very-fast {
+  &::before {
+    transition: all $animation-duration-very-fast ease-out;
+  }
+}

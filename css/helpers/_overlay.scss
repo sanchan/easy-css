@@ -1,0 +1,69 @@
+.overlay {
+  position: relative;
+
+  &::before {
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  > * {
+    position: relative;
+  }
+}
+
+// Overlay background
+.overlay-background-color-light {
+  &::before { background-color: #fff; }
+}
+
+.overlay-background-color-dark {
+  &::before { background-color: #000; }
+}
+
+.overlay-background-color-primary {
+  &::before { background-color: $color-primary; }
+}
+
+.overlay-background-color-secondary {
+  &::before { background-color: $color-secondary; }
+}
+
+.overlay-background-color-tertiary {
+  &::before { background-color: $color-tertiary; }
+}
+
+// Overlay background on hover
+.overlay-hover-background-color-light {
+  &:hover {
+    &::before { background-color: #fff; }
+  }
+}
+
+.overlay-hover-background-color-dark {
+  &:hover {
+    &::before { background-color: #000; }
+  }
+}
+
+.before-hover-background-color-primary {
+  &:hover {
+    &::before { background-color: $color-primary; }
+  }
+}
+
+.before-hover-background-color-secondary {
+  &:hover {
+    &::before { background-color: $color-secondary; }
+  }
+}
+
+.before-hover-background-color-tertiary {
+  &:hover {
+    &::before { background-color: $color-tertiary; }
+  }
+}

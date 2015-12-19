@@ -1,0 +1,21 @@
+/**
+ * Main content containers
+ * 1. Make the container full-width with a maximum width
+ * 2. Center it in the viewport
+ * 3. Leave some space on the edges, especially valuable on small screens
+ */
+.container {
+  max-width: $max-width; /* 1 */
+  margin-left: auto; /* 2 */
+  margin-right: auto; /* 2 */
+  padding-left: $base-spacing; /* 3 */
+  padding-right: $base-spacing; /* 3 */
+  width: 100%; /* 1 */
+ }
+ 
+.container,
+.container-fluid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

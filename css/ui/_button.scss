@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn {
+  background: transparent;
+  border: 2px solid $color-primary;
+  border-radius: 0;
+
+  @include on-event(true) {
+    color: $color-primary;
+  };
+
+  &.btn-white {
+    border: 2px solid #fff;
+
+    @include on-event(true) {
+      color: #fff;
+    }
+  }
+
+  &.btn-hover-colored {
+    &:hover {
+      background-color: $color-primary;
+      border-color: $color-primary;
+      color: $color-primary-foreground;
+    }
+  }
+}
+
+.btn-colored {
+  background-color: $color-primary;
+  border-color: $color-primary;
+  color: $color-primary-foreground;
+
+  &:hover {
+    color: $color-primary-foreground;
+  }
+}
+
+.btn-md {
+  @extend .font-size-subheading;
+  padding: 10px 15px;
+}
+
+.btn-lg {
+  @extend .font-size-headline;
+  padding: 15px 20px;
+}
+
+.btn-xl {
+  @extend .font-size-headline;
+  padding: 20px 40px;
+}

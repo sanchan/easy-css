@@ -1,0 +1,71 @@
+@charset 'UTF-8';
+
+// 1. Vendors
+@import
+  'vendor/bootstrap.css',
+  'vendor/bootstrap-theme.css',
+  'vendor/animate.css',
+  'vendor/normalize',
+  '../bower_components/components-font-awesome/css/font-awesome.min.css',
+  '../bower_components/sass-material-colors/sass/_sass-material-colors.scss';
+
+// 2. Core
+@import
+  'core/functions',
+  'core/variables/animations',
+  'core/variables/colors',
+  'core/variables/fonts',
+  'core/variables/misc',
+  'core/variables/sizes';
+
+// 3. Utils
+@import
+  'utils/animations',
+  'utils/mixins';
+
+// 4. Helpers
+@import
+  'helpers/animations',
+  'helpers/background',
+  'helpers/border',
+  'helpers/containers',
+  'helpers/display',
+  'helpers/fonts',
+  'helpers/margin',
+  'helpers/opacity',
+  'helpers/overlay',
+  'helpers/padding',
+  'helpers/position',
+  'helpers/sizes';
+
+// 5. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/icons',
+  'base/heading',
+  'base/typography',
+  'base/helpers';
+
+// 6. UI
+@import
+  'ui/button',
+  'ui/navbar';
+
+// 7. Your own custom Sections
+// @import
+//   'sections/hero';
+
+// 8. Layout-related sections
+@import
+  'layout/body',
+  'layout/header',
+  'layout/footer';
+
+// 9. Page-specific styles
+@import
+  'pages/home';
+
+// 10. Themes
+@import
+  'themes/default';

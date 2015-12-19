@@ -1,0 +1,28 @@
+// Main colors
+// TODO Create variables for color groups: triade, etc. $color-triade-primary
+$color-primary:   color('deep-orange', '500');
+$color-secondary: color('blue', '500');
+$color-tertiary:  color('green', '500');
+
+// Main foreground colors
+$color-primary-foreground:   #fff;
+$color-secondary-foreground: #fff;
+$color-tertiary-foreground:  #fff;
+
+// Colors Grey
+$color-grey-lightenest: color('grey', '100');
+$color-grey-lightener:  color('grey', '200');
+$color-grey-lighter:    color('grey', '300');
+$color-grey-light:      color('grey', '400');
+$color-grey:            color('grey', '500');
+$color-grey-dark:       color('grey', '600');
+$color-grey-darker:     color('grey', '700');
+$color-grey-darkener:   color('grey', '800');
+$color-grey-darkest:    color('grey', '900');
+
+$color-divider: color('grey', '300');
+
+/// Main brand color
+/// @type Color
+// DEPRECATED ?
+$brand-color: $color-primary !default;

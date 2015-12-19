@@ -1,0 +1,144 @@
+// Font size
+.font-size-button      { font-size: $font-size-button; }
+.font-size-menu        { font-size: $font-size-menu; }
+.font-size-caption     { font-size: $font-size-caption; }
+.font-size-body        { font-size: $font-size-body; }
+.font-size-subheading  { font-size: $font-size-subheading; }
+.font-size-title       { font-size: $font-size-title; }
+.font-size-headline    { font-size: $font-size-headline; }
+.font-size-display-xs  { font-size: $font-size-display-xs; }
+.font-size-display-sm  { font-size: $font-size-display-sm; }
+.font-size-display     { font-size: $font-size-display; }
+.font-size-display-md  { font-size: $font-size-display-md; }
+.font-size-display-lg  { font-size: $font-size-display-lg; }
+.font-size-display-xl  { font-size: $font-size-display-xl; }
+.font-size-display-xxl { font-size: $font-size-display-xxl; }
+
+// Font line height
+// line-height is calculated using golden ratio: http://www.pearsonified.com/typography/
+.font-height-button      { line-height: $font-height-button; }
+.font-height-menu        { line-height: $font-height-menu; }
+.font-height-caption     { line-height: $font-height-caption; }
+.font-height-body        { line-height: $font-height-body; }
+.font-height-subheading  { line-height: $font-height-subheading; }
+.font-height-title       { line-height: $font-height-title; }
+.font-height-headline    { line-height: $font-height-headline; }
+.font-height-display-xs  { line-height: $font-height-display-xs; }
+.font-height-display-sm  { line-height: $font-height-display-sm; }
+.font-height-display     { line-height: $font-height-display; }
+.font-height-display-md  { line-height: $font-height-display-md; }
+.font-height-display-lg  { line-height: $font-height-display-lg; }
+.font-height-display-xl  { line-height: $font-height-display-xl; }
+.font-height-display-xxl { line-height: $font-height-display-xxl; }
+
+// Font weight
+// DEPRECATED ?
+.font-weight-lightest { font-weight: 100; }
+.font-weight-lighter  { font-weight: 200; }
+.font-weight-light    { font-weight: 300; }
+.font-weight-normal   { font-weight: 400; }
+.font-weight-wide     { font-weight: 500; }
+.font-weight-boldy    { font-weight: 600; }
+.font-weight-bold     { font-weight: 700; }
+.font-weight-bolder   { font-weight: 800; }
+.font-weight-boldest  { font-weight: 900; }
+
+// All in one
+// TODO Add font-weight
+.font-button      { font-size: $font-size-button;      line-height: $font-height-button; }
+.font-menu        { font-size: $font-size-menu;        line-height: $font-height-menu; }
+.font-caption     { font-size: $font-size-caption;     line-height: $font-height-caption; }
+.font-body        { font-size: $font-size-body;        line-height: $font-height-body; }
+.font-subheading  { font-size: $font-size-subheading;  line-height: $font-height-subheading; }
+.font-title       { font-size: $font-size-title;       line-height: $font-height-title; }
+.font-headline    { font-size: $font-size-headline;    line-height: $font-height-headline; }
+.font-display-xs  { font-size: $font-size-display-xs;  line-height: $font-height-display-xs; }
+.font-display-sm  { font-size: $font-size-display-sm;  line-height: $font-height-display-sm; }
+.font-display     { font-size: $font-size-display;     line-height: $font-height-display; }
+.font-display-md  { font-size: $font-size-display-md;  line-height: $font-height-display-md; }
+.font-display-lg  { font-size: $font-size-display-lg;  line-height: $font-height-display-lg; }
+.font-display-xl  { font-size: $font-size-display-xl;  line-height: $font-height-display-xl; }
+.font-display-xxl { font-size: $font-size-display-xxl; line-height: $font-height-display-xxl; }
+
+// Font line height for h1...h6
+// By default, we want that the h1...h6 line-height fit with its own font-size.
+h1,h2,h3,h4,h5,h6 {
+  &.font-size-button,
+  &.font-size-menu,
+  &.font-size-caption,
+  &.font-size-body,
+  &.font-size-subheading,
+  &.font-size-title,
+  &.font-size-headline,
+  &.font-size-display-xs,
+  &.font-size-display-sm,
+  &.font-size-display,
+  &.font-size-display-md,
+  &.font-size-display-lg,
+  &.font-size-display-xl,
+  &.font-size-display-xxl {
+    line-height: 100%;
+  }
+
+  &.font-button,
+  &.font-menu,
+  &.font-caption,
+  &.font-body,
+  &.font-body-2,
+  &.font-subheading,
+  &.font-title,
+  &.font-headline,
+  &.font-display-xs,
+  &.font-display-sm,
+  &.font-display,
+  &.font-display-md,
+  &.font-display-lg,
+  &.font-display-xl,
+  &.font-display-xxl {
+    line-height: 100%;
+  }
+}
+
+// Fit the line height to the font size.
+// Useful for 1 line texts.
+.fit-line-height {
+  line-height: 100%;
+}
+
+.bold      { font-weight: bold; }
+.italic    { font-style: italic; }
+.uppercase { text-transform: uppercase; }
+
+// Text Alignment
+.text-left   { text-align: left; }
+.text-right  { text-align: center; }
+.text-center { text-align: center; }
+
+/***** Colors *****/
+// Main Colors
+.font-color-primary   { color: $color-primary; }
+.font-color-secondary { color: $color-secondary; }
+.font-color-tertiary  { color: $color-tertiary; }
+
+// Default font color
+// This same font color is used on body tag.
+// @see _variables.scss
+.font-color { color: $font-color; }
+
+// Negative font color
+// Useful for dark backgrounds
+// @see _variables.scss
+.font-color-negative { color: $font-color-negative; }
+
+// Grey
+.font-color-white           { color: #fff; }
+.font-color-grey-lightenest { color: $color-grey-lightenest; }
+.font-color-grey-lightener  { color: $color-grey-lightener; }
+.font-color-grey-lighter    { color: $color-grey-lighter; }
+.font-color-grey-light      { color: $color-grey-light; }
+.font-color-grey            { color: $color-grey; }
+.font-color-grey-dark       { color: $color-grey-dark; }
+.font-color-grey-darker     { color: $color-grey-darker; }
+.font-color-grey-darkener   { color: $color-grey-darkener; }
+.font-color-grey-darkest    { color: $color-grey-darkest; }
+.font-color-black           { color: #000; }

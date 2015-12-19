@@ -1,0 +1,13 @@
+.fa {
+  @include on-event(true) {
+    text-decoration: none;
+  };
+
+  &.fa-lg {
+    @extend .font-size-display-xl;
+  }
+
+  &.fa-xl {
+    @extend .font-size-display-xxl;
+  }
+}

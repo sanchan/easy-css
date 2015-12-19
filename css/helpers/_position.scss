@@ -1,0 +1,53 @@
+// Horizontal alignment
+.h-align {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// Vertical alignment
+.v-align {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// Horizontal & Vertical alignment
+.hv-align {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+// Top
+.top-xs { top: 5px; }
+.top-sm { top: 10px; }
+.top    { top: 15px; }
+.top-md { top: 20px; }
+.top-lg { top: 40px; }
+.top-xl { top: 80px; }
+
+// Bottom
+.bottom-xs { bottom: 5px; }
+.bottom-sm { bottom: 10px; }
+.bottom    { bottom: 15px; }
+.bottom-md { bottom: 20px; }
+.bottom-lg { bottom: 40px; }
+.bottom-xl { bottom: 80px; }
+
+// Left
+.left-xs { left: 5px; }
+.left-sm { left: 10px; }
+.left    { left: 15px; }
+.left-md { left: 20px; }
+.left-lg { left: 40px; }
+.left-xl { left: 80px; }
+
+// Right
+.right-xs { right: 5px; }
+.right-sm { right: 10px; }
+.right    { right: 15px; }
+.right-md { right: 20px; }
+.right-lg { right: 40px; }
+.right-xl { right: 80px; }

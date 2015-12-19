@@ -1,0 +1,20 @@
+{
+  "name": "easy-css",
+  "authors": [
+    "Danilo Vladimiro Borek <danilo.dev@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "sass-material-colors": "~0.0.5",
+    "components-font-awesome": "~4.5.0"
+  }
+}

@@ -1,0 +1,66 @@
+/***** Sizes *****/
+.bg-contain { background-size: contain; }
+.bg-cover   { background-size: cover; }
+
+/***** Colors *****/
+// Main colors
+.bg-primary {
+  background: $color-primary;
+  color: $color-primary-foreground;
+}
+
+.bg-secondary {
+  background: $color-secondary;
+  color: $color-secondary-foreground;
+}
+
+.bg-tertiary {
+  background: $color-tertiary;
+  color: $color-tertiary-foreground;
+}
+
+// Grey
+.bg-grey-lightenest {
+  background: $color-grey-lightenest;
+  color: $color-grey-darkest;
+}
+
+.bg-grey-lightener {
+  background: $color-grey-lightener;
+  color: $color-grey-darkener;
+}
+
+.bg-grey-lighter {
+  background: $color-grey-lighter;
+  color: $color-grey-darkener;
+}
+
+.bg-grey-light {
+  background: $color-grey-light;
+  color: $color-grey-darker;
+}
+
+.bg-grey {
+  background: $color-grey;
+  color: $color-grey-darkener;
+}
+
+.bg-grey-dark {
+  background: $color-grey-dark;
+  color: $color-grey-lighter;
+}
+
+.bg-grey-darker {
+  background: $color-grey-darker;
+  color: $color-grey-lightener;
+}
+
+.bg-grey-darkener {
+  background: $color-grey-darkener;
+  color: $color-grey-lightenest;
+}
+
+.bg-grey-darkest {
+  background: $color-grey-darkest;
+  color: #fff;
+}
